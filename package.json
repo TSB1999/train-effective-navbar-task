@@ -1,0 +1,24 @@
+{
+  "name": "navbar-project",
+  "version": "1.0.0",
+  "description": "haluvibe clone",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TSB1999/train-effective-navbar-task.git"
+  },
+  "author": "TSB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TSB1999/train-effective-navbar-task/issues"
+  },
+  "homepage": "https://github.com/TSB1999/train-effective-navbar-task#readme",
+  "devDependencies": {
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0"
+  }
+}
