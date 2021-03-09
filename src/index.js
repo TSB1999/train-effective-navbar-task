@@ -1,3 +1,2 @@
 import "./main.scss";
-
-console.log("hello world");
+import "./index.ts";
