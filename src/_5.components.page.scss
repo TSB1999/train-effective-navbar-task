@@ -3,49 +3,49 @@
     justify-content : center;
     flex : 1;
     background : $page-background;
-
-    &__item {
-        margin : $item-margin;
-        padding : $item-padding;
-        height : $item-height;
-        width : $item-width;
-        border-radius : 5px;
-        background : $page-item;
-        box-shadow: 0.05rem 0.05rem $item-shadow;
-        border: 0.1rem solid $item-border;
-    }
-
-    
 }
 
-.item__title {
-    text-align : center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: $title-size;
-    font-weight : $title-weight;
-    color: $item-title;
-}
+.c-item {
+    margin : $item-margin;
+    padding : $item-padding;
+    height : $item-height;
+    width : $item-width;
+    border-radius : 5px;
+    background : $page-item;
+    box-shadow: 0.05rem 0.05rem $item-shadow;
+    border: 0.1rem solid $item-border;
 
-.item__select {
-    display : flex;
-    padding : $select-padding;
-    align-items : center;
-    margin : $select-margin;
+    &__title {
+        text-align : center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: $title-size;
+        font-weight : $title-weight;
+        color: $item-title;
+    }
     
-
-    &:hover {
-        background: $select-hover;
+    &__select {
+        display : flex;
+        padding : $select-padding;
+        align-items : center;
+        margin : $select-margin;
+        
+    
+        &:hover {
+            background: $select-hover;
+        }
+    
     }
 
-    & > i {
+    &__icon {
         margin-right : 2rem;
         font-size: 1.25rem;
         color: $select-icon;
     }
 
-    & > text {
+    &__text {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.05rem;
         color: $select-text;
     }
 }
+
