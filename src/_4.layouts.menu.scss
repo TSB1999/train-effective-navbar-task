@@ -1,3 +1,9 @@
 .l-menu {
     display : flex;
 }
+
+@media (max-width: 959px) {
+    .l-menu {
+      display: none;
+    }
+  }
