@@ -1,0 +1,8 @@
+.c-drawer {
+    flex : 1;
+    // background : red;
+    width : $drawer-width;
+    border-top: 1px solid $drawer-border;
+    border-left: 1px solid $drawer-border;
+    border-right: 1px solid $drawer-border;
+}
