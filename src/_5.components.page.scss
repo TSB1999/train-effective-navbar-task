@@ -6,13 +6,13 @@
 
     &__item {
         margin : $item-margin;
-        padding : 1.3rem;
+        padding : $item-padding;
         height : $item-height;
         width : $item-width;
         border-radius : 5px;
         background : $page-item;
-        box-shadow: 0.05rem 0.05rem #a6a6a6;
-        border: 0.1rem solid #ebebeb;
+        box-shadow: 0.05rem 0.05rem $item-shadow;
+        border: 0.1rem solid $item-border;
     }
 
     
@@ -21,32 +21,31 @@
 .item__title {
     text-align : center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    font-weight : 400;
-    color: #812980;
+    font-size: $title-size;
+    font-weight : $title-weight;
+    color: $item-title;
 }
 
 .item__select {
     display : flex;
-    // height : 3.5rem;
-    padding : 0.9rem;
+    padding : $select-padding;
     align-items : center;
-    margin : 1.5rem 0 0 0;
+    margin : $select-margin;
     
 
     &:hover {
-        background: #f5f5f5;
+        background: $select-hover;
     }
 
     & > i {
         margin-right : 2rem;
         font-size: 1.25rem;
-        color: #757575;
+        color: $select-icon;
     }
 
     & > text {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.05rem;
-        color: #212121;
+        color: $select-text;
     }
 }
