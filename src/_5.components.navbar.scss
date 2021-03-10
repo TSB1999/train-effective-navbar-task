@@ -1,0 +1,12 @@
+.c-navbar {
+    display : flex;
+    align-items : center;
+    padding-left: 1.4rem;
+    height : $navbar-height;
+    background : $navbar-background;
+
+    &__title {
+        color : $navbar-text;
+    }
+}
+

@@ -1,0 +1,5 @@
+$drawer-width: 240px;
+
+$navbar-width: calc(100% - $drawer-width);
+$navbar-height: 4rem;
+$page-width: $navbar-width;
