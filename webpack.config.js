@@ -4,7 +4,7 @@ module.exports = {
   mode: "development",
   entry: "./src/index.ts",
   output: {
-    filename: "main.js",
+    filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
   },
   module: {
@@ -17,6 +17,15 @@ module.exports = {
         test: /\.tsx?$/,
         loader: "ts-loader",
       },
+      {
+        test: /\.html?$/,
+        loader: "html-loader",
+      },
     ],
+  },
+  devServer: {
+    port: 3000,
+    contentBase: path.resolve(__dirname, "dist"),
+    hot: true,
   },
 };

@@ -1,4 +1,7 @@
 import "./main.scss";
 
+console.log("hello world");
 
-console.log('hello world')
+if (module.hot) {
+  module.hot.accept();
+}
