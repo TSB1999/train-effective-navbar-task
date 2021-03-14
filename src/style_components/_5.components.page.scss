@@ -1,6 +1,8 @@
 .c-page {
     display : flex;
-    justify-content : center;
+    flex-direction : column;
+    // justify-content : center;
+    align-items : center;
     flex : 1;
     background : $page-background;
 }
@@ -8,7 +10,7 @@
 .c-item {
     margin : $item-margin;
     padding : $item-padding;
-    height : $item-height;
+    // height : $item-height;
     width : $item-width;
     border-radius : 5px;
     background : $page-item;

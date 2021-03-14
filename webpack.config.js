@@ -29,4 +29,11 @@ module.exports = {
     contentBase: path.resolve(__dirname, "dist"),
     hot: true,
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      // inject: "body",
+      template: "./src/index.html",
+      // filename: "index.html",
+    }),
+  ],
 };
